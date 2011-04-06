@@ -1,11 +1,5 @@
 import javax.swing.JOptionPane;
-    
-/**
-*
-* @author Juan Pablo Castrillón
-* 
-*/
-    
+   
 public class Matriz {
     
     private int  [][] matriz;
@@ -22,7 +16,7 @@ public class Matriz {
     }
     
     /**
-     * Constructor que recibe dos parametros como tamaño de la matriz
+     * Constructor que recibe dos parametros como tamaÃ±o de la matriz
      * 
      * @param x Filas de la matriz
      * @param y Columnas de la matriz
@@ -34,19 +28,19 @@ public class Matriz {
     }
     
     /**
-     * Método que nos llena la matriz
+     * MÃ©todo que nos llena la matriz
      */
     
     public void LlenarMatriz(){
         try {
             for (f=0; f<matriz.length;f++)
                 for (c=0; c<matriz[0].length;c++)
-                    matriz[f][c]=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el número a ingresar"));
+                    matriz[f][c]=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el nÃºmero a ingresar"));
         } catch(Exception e){}
     }
     
     /**
-     * Método que averigua si una matriz es simetrica o no
+     * MÃ©todo que averigua si una matriz es simetrica o no
      * @return
      */
     
@@ -66,11 +60,11 @@ public class Matriz {
             }
         }
         else
-            System.out.println("La matriz esta vacía");
+            System.out.println("La matriz esta vacÃ­a");
     }
     
     /**
-     * Método booleano, devuelve true si la matriz esta llena
+     * MÃ©todo booleano, devuelve true si la matriz esta llena
      * @return
      */
     
@@ -82,7 +76,7 @@ public class Matriz {
     }
     
     /**
-     * Método booleano, devuelve true si la matriz esta vacía.
+     * MÃ©todo booleano, devuelve true si la matriz esta vacÃ­a.
      * @return
      */
     
@@ -94,7 +88,7 @@ public class Matriz {
     }
     
     /**
-     * Método que imprime la Diagonal Principal
+     * MÃ©todo que imprime la Diagonal Principal
      */
     
     public void DiagonalPrincipal(){
@@ -112,7 +106,7 @@ public class Matriz {
     }
     
     /**
-     * Método que imprime la transpuesta de una matriz cualquiera.
+     * MÃ©todo que imprime la transpuesta de una matriz cualquiera.
      */
     
     public void Transpuesta(){
@@ -125,7 +119,7 @@ public class Matriz {
     }
     
     /**
-     * Método booleano, devuelve true si la matriz es simétrica
+     * MÃ©todo booleano, devuelve true si la matriz es simÃ©trica
      * @return
      */
     
